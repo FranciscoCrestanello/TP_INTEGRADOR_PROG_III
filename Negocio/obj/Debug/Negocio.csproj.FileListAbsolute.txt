@@ -152,3 +152,14 @@ C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V22\Negocio\obj\Debug\Negoci
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V22\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V22\Negocio\obj\Debug\Negocio.dll
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V22\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Negocio.dll
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Dao.dll
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Entidades.dll
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Dao.pdb
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.dll
+C:\Users\gonza\source\repos\FranciscoCrestanello\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.pdb

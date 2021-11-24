@@ -54,7 +54,18 @@ namespace Dao
             return ds.Tables[NombreTabla];
         }
 
+
         public DataTable ObtenerUsuario(String NombreTabla, String Sql)
+        {
+            DataSet ds = new DataSet();
+            SqlConnection Conexion = ObtenerConexion();
+            SqlDataAdapter adp = ObtenerAdaptador(Sql, Conexion);
+            adp.Fill(ds, NombreTabla);
+            Conexion.Close();
+            return ds.Tables[NombreTabla];
+        }
+
+        public DataTable ObtenerTablaCompras(String NombreTabla, String Sql)
         {
             DataSet ds = new DataSet();
             SqlConnection Conexion = ObtenerConexion();
@@ -249,5 +260,7 @@ namespace Dao
             }
             return Stock;
         }
+
+
     }
 }

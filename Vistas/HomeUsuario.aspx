@@ -57,7 +57,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:HyperLink ID="HyperLink5" runat="server">HyperLink</asp:HyperLink>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:HyperLink ID="HyperLink6" runat="server">HyperLink</asp:HyperLink>
+                <asp:HyperLink ID="hplCompras" runat="server" NavigateUrl="~/Compras.aspx">Compras</asp:HyperLink>
             </nav>
             <br />
             <nav> 

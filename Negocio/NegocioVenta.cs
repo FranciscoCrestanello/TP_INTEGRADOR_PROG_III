@@ -44,6 +44,14 @@ namespace Negocio
             DaoVentas dao = new DaoVentas();
             return dao.GetVentas();
         }
+
+        public DataTable GetComprasxCliente(string cod)
+        {
+            DaoVentas dao = new DaoVentas();
+            return dao.GetComprasClientes(cod);
+        }
+
+
         public bool EliminarVenta(int IdVenta)
         {
             DaoVentas dao = new DaoVentas();

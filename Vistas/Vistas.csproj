@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Compras.aspx" />
     <Content Include="ddd.html" />
     <Content Include="DetalleVentas\AgregarDetalleDeVentas.aspx" />
     <Content Include="DetalleVentas\BuscarDetalleDeVentas.aspx" />
@@ -95,6 +96,13 @@
     <Content Include="Carrito.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compras.aspx.cs">
+      <DependentUpon>Compras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Compras.aspx.designer.cs">
+      <DependentUpon>Compras.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DetalleVentas\AgregarDetalleDeVentas.aspx.cs">
       <DependentUpon>AgregarDetalleDeVentas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

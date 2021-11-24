@@ -46,6 +46,12 @@ namespace Dao
             return tabla;
         }
 
+        public DataTable GetComprasClientes(String cod)
+        {
+            DataTable table = dt.ObtenerTablaCompras("Compras", "Select * from ventas where Cod_Cliente_V = '" + cod.ToString() + "'");
+            return table;
+        }
+
         public int EliminarVenta(Venta Venta_)
         {
             SqlCommand comando = new SqlCommand();
@@ -80,6 +86,8 @@ namespace Dao
             return dt.EjecutarProcedimientoAlmacenado(comando, "spActualizarVenta");
             
         }
+
+
         /*
         public Boolean ExisteCliente(Usuario cliente)
         {
