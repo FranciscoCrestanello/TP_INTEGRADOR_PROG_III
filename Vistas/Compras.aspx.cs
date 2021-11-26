@@ -20,6 +20,7 @@ namespace Vistas
             }
             else
 			{
+				Lblusuario.Text = Session["Usuario"].ToString();
 				CargarFacturas();
 			}
 
@@ -31,5 +32,14 @@ namespace Vistas
 			}
 
 		}
-	}
+
+        protected void gvfacturas_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        {
+			Lbl_Fdetalles.Visible = true;
+			gvDfacturas.Visible = true;
+			NegocioVenta Dfacturas = new NegocioVenta();
+
+
+        }
+    }
 }
